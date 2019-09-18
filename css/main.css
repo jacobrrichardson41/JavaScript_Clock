@@ -1,0 +1,45 @@
+body {
+   background-color: green;
+   font-family: 'Permanent Marker', cursive; /* try to use the Permanent Marker font, if you can't, use cursive font */
+   margin: 0;
+}
+
+.headerContainer {
+ background-color: blue;
+}
+
+.headerContainer a {
+   /*Remember that this targets anchor elements inside any element using the headerContainer class*/
+   padding: 16px 18px;
+   display: inline-block;
+   color: green;
+   text-decoration: none;
+
+}
+
+.headerContainer a:hover {
+   /* Change the styling for the anchor elements inside the headerContainer class when we mouse over them */
+   background-color: green;
+   color: blue;
+   transform: rotate(360deg);
+   transition-duration: 2s;
+
+}
+
+ #clockDisplay {
+    color: blue;
+    position: absolute; /*We want to position this element on the scree where we want it */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);/* Move the element 50% of its width to left and 50% of its height up */
+    font-size: 60px;}
+
+    #dateDisplay {
+      color: blue;
+      position: absolute; /*We want to position this element on the scree where we want it */
+      top: 60%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);/* Move the element 50% of its width to left and 50% of its height up */
+      font-size: 60px;}
+    
+
